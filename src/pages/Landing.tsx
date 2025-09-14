@@ -129,7 +129,7 @@ const Landing: React.FC = () => {
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Success</span>
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-              Comprehensive tools designed to enhance your educational journey and streamline campus life.
+              Bharath Organisation provides comprehensive tools designed to enhance your educational journey and streamline campus life with excellence and innovation.
             </p>
           </motion.div>
 
@@ -174,7 +174,7 @@ const Landing: React.FC = () => {
               Loved by Students & Educators
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
-              See what our community has to say about their experience.
+              See what Bharath Organisation community has to say about their transformative experience.
             </p>
           </motion.div>
 
@@ -226,7 +226,7 @@ const Landing: React.FC = () => {
               Choose Your Plan
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
-              Flexible pricing for individuals, clubs, and institutions.
+              Bharath Organisation offers flexible pricing for individuals, clubs, and institutions.
             </p>
           </motion.div>
 
@@ -301,8 +301,8 @@ const Landing: React.FC = () => {
               Ready to Transform Your Campus Experience?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Join thousands of students and educators who are already using EduOrg 
-              to enhance their academic journey.
+              Join thousands of students and educators who are already part of Bharath Organisation 
+              to enhance their academic journey and achieve excellence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.button

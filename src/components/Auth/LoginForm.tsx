@@ -42,10 +42,10 @@ const LoginForm: React.FC<LoginFormProps> = ({ onToggle }) => {
       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl border border-gray-200 dark:border-gray-700 p-8">
         <div className="text-center mb-8">
           <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl mx-auto mb-4 flex items-center justify-center">
-            <span className="text-2xl font-bold text-white">E</span>
+            <span className="text-2xl font-bold text-white">B</span>
           </div>
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Welcome Back</h2>
-          <p className="text-gray-600 dark:text-gray-400">Sign in to your account</p>
+          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Welcome to Bharath Organisation</h2>
+          <p className="text-gray-600 dark:text-gray-400">Sign in to access your educational portal</p>
         </div>
 
         {error && (

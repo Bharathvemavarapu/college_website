@@ -85,7 +85,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, currentPage, onPageChange }) 
           {/* Footer */}
           <div className="p-4 border-t border-gray-200 dark:border-gray-700">
             <div className="text-xs text-gray-500 dark:text-gray-400">
-              © 2025 EduOrg Platform
+              © 2025 Bharath Organisation
             </div>
           </div>
         </div>

@@ -5,6 +5,15 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import Navbar from './components/Navigation/Navbar';
 import Sidebar from './components/Navigation/Sidebar';
 import Dashboard from './pages/Dashboard';
+import Events from './pages/Events';
+import Clubs from './pages/Clubs';
+import Academics from './pages/Academics';
+import Achievements from './pages/Achievements';
+import Announcements from './pages/Announcements';
+import Discussion from './pages/Discussion';
+import Analytics from './pages/Analytics';
+import Profile from './pages/Profile';
+import Settings from './pages/Settings';
 import Landing from './pages/Landing';
 import LoginForm from './components/Auth/LoginForm';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -70,23 +79,23 @@ const AppLayout: React.FC = () => {
       case 'dashboard':
         return <Dashboard />;
       case 'events':
-        return <div className="p-8">Events Page (Coming Soon)</div>;
+        return <Events />;
       case 'clubs':
-        return <div className="p-8">Clubs Page (Coming Soon)</div>;
+        return <Clubs />;
       case 'academics':
-        return <div className="p-8">Academics Page (Coming Soon)</div>;
+        return <Academics />;
       case 'achievements':
-        return <div className="p-8">Achievements Page (Coming Soon)</div>;
+        return <Achievements />;
       case 'announcements':
-        return <div className="p-8">Announcements Page (Coming Soon)</div>;
+        return <Announcements />;
       case 'discussion':
-        return <div className="p-8">Discussion Page (Coming Soon)</div>;
+        return <Discussion />;
       case 'analytics':
-        return <div className="p-8">Analytics Page (Coming Soon)</div>;
+        return <Analytics />;
       case 'profile':
-        return <div className="p-8">Profile Page (Coming Soon)</div>;
+        return <Profile />;
       case 'settings':
-        return <div className="p-8">Settings Page (Coming Soon)</div>;
+        return <Settings />;
       default:
         return <Dashboard />;
     }

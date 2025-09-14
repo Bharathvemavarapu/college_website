@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
               transition={{ delay: 0.2 }}
               className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 text-sm font-medium text-blue-700 dark:text-blue-300 mb-6"
             >
-              🎓 Welcome to the Future of College Organization
+              🎓 Welcome to Bharath Organisation - Excellence in Education
             </motion.div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
